@@ -1,0 +1,157 @@
+body{
+    background-image: url("Assets/backgroundimage.jpg");
+    font-family: 'AppFont'; 
+    /* display: flex; */
+    /* justify-content: center;   */
+}
+
+@font-face {
+    font-family: 'AppFont'; 
+    src: url('Assets/fontfam.ttf'); 
+    
+}
+@font-face {
+    font-family: 'ScoreFont'; 
+    src: url('Assets/DragonHunter-9Ynxj.otf'); 
+    
+}
+.menu-container{  
+    display: flex;
+    justify-content: center;  
+    margin-left: 400px;
+    width: 650px;
+    height: 410px;
+    box-shadow: 39px -30px 23px -18px purple;
+    margin-top: 100px;
+    background-color: rgb(17, 17, 65, 0.7);
+
+}
+
+.menu-title{
+    margin-top: 50px;
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+.btn-class{
+    font-size: 30px;
+    font-family: 'AppFont';
+    color: darkred;
+    background-color: burlywood;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.btn-div{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 30px;
+    box-shadow: 39px -30px 23px -18px sandybrown;
+    margin: 10px;
+}
+
+.made-txt{
+    color: cadetblue;
+}
+
+.play-screen{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.play-head{
+    font-size: 40PX;
+    color: violet;
+}
+
+.score-txt{
+    font-size: 30px;
+    color: aqua;
+
+}
+
+/* .game{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 100%;
+} */
+
+.game {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.game-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    align-items: center;
+    background: rgb(21, 22, 78,0.75);
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: white;
+    border-radius: 1rem;
+    box-shadow: -38px 34px 32px 0px rgba(95,123,237,1);
+    cursor: pointer;
+    color: springgreen;
+}
+
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    /* height: 100vh;  */
+    width: 100%;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.game-over{
+    color: maroon;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+    flex-direction: column;
+}
+
+.reset-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    font-family: 'AppFont';
+    color: goldenrod;
+    cursor: pointer;
+
+}
+
+.final-sc{
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    font-family: 'ScoreFont';
+}
+
+.game-won{
+    color: green;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+    flex-direction: column;
+}
